@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DapurPintar AI membantu menemukan resep dari bahan makanan yang tersedia.">
+  <title>DapurPintar AI - Temukan Ide Masakanmu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">🍳 DapurPintar <span>AI</span></a>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#cari-resep">Cari Resep</a>
+      <a href="#menu-mingguan">Menu Mingguan</a>
+      <a href="#favorit">Favorit</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-content">
+        <span class="eyebrow">✨ Asisten memasak pintar</span>
+        <h1>Punya Bahan,<br>Bingung Masak?</h1>
+        <p>
+          Kenali bahan makananmu, temukan inspirasi resep,
+          dan buat masakan lezat bersama DapurPintar AI.
+        </p>
+        <a href="#cari-resep" class="primary-button">
+          Temukan Resep →
+        </a>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=900"
+          alt="Aneka makanan sehat"
+        >
+      </div>
+    </section>
+
+    <section class="search-section" id="cari-resep">
+      <div class="section-heading">
+        <span class="eyebrow">👩‍🍳 Mulai dari dapurmu</span>
+        <h2>Apa yang Ada di Kulkasmu?</h2>
+        <p>Masukkan bahan makanan atau unggah foto bahan yang tersedia.</p>
+      </div>
+
+      <div class="search-card">
+        <label for="ingredientInput">Masukkan bahan makanan</label>
+        <div class="input-row">
+          <input
+            type="text"
+            id="ingredientInput"
+            placeholder="Contoh: telur, ayam, wortel..."
+          >
+          <button id="addIngredientBtn" type="button">Tambah</button>
+        </div>
+
+        <div id="ingredientList" class="ingredient-list">
+          <p class="empty-message">Belum ada bahan yang ditambahkan.</p>
+        </div>
+
+        <div class="upload-area">
+          <h3>📸 Pindai Bahan dengan AI</h3>
+          <p>Unggah foto bahan makanan untuk dikenali oleh AI.</p>
+          <input
+            type="file"
+            id="foodImage"
+            accept="image/*"
+          >
+          <div id="imagePreview" class="image-preview"></div>
+        </div>
+
+        <button id="recommendBtn" class="primary-button full-button" type="button">
+          ✨ Cari Rekomendasi Resep
+        </button>
+
+        <p id="statusMessage" class="status-message" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="recipes-section" id="rekomendasi">
+      <div class="section-heading">
+        <span class="eyebrow">💡 Inspirasi masakan</span>
+        <h2>Rekomendasi Resep</h2>
+        <p>Temukan ide masakan berdasarkan bahan yang kamu miliki.</p>
+      </div>
+
+      <div id="recipeResults" class="recipe-grid">
+        <div class="empty-card">
+          <span>🥗</span>
+          <h3>Resepmu akan muncul di sini</h3>
+          <p>Tambahkan bahan makanan untuk mendapatkan rekomendasi.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="weekly-section" id="menu-mingguan">
+      <div class="section-heading">
+        <span class="eyebrow">📅 Rencana makan</span>
+        <h2>Menu Makanan Mingguan</h2>
+        <p>Atur inspirasi sarapan, makan siang, dan makan malam.</p>
+      </div>
+
+      <div id="weeklyMenu" class="weekly-grid">
+        <p class="empty-message">Menu mingguan akan ditampilkan di sini.</p>
+      </div>
+    </section>
+
+    <section class="favorites-section" id="favorit">
+      <div class="section-heading">
+        <span class="eyebrow">❤️ Koleksi pribadi</span>
+        <h2>Resep Favorit</h2>
+        <p>Simpan resep yang ingin kamu masak lagi.</p>
+      </div>
+
+      <div id="favoriteResults" class="recipe-grid">
+        <p class="empty-message">Belum ada resep favorit.</p>
+      </div>
+    </section>
+
+    <section id="recipeDetail" class="detail-section" hidden>
+      <div id="detailContent"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h2>🍳 DapurPintar AI</h2>
+    <p>Kenali Bahan, Temukan Resep, Nikmati Masakan.</p>
+    <p>© 2026 DapurPintar AI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

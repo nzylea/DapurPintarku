@@ -5,7 +5,7 @@ Identitas Project
 - Tema project: Solusi digital untuk kehidupan sehari-hari berbantuan kecerdasan artifisial
 - Teknologi: HTML5, CSS3, JavaScript, GitHub, dan GitHub Pages
 - AI yang digunakan: ChatGPT
-- Nama anggota tim: Annisa Tri Sucahyo dan Citra Yollanda
+- Nama anggota tim: Annisa Tri Sucahyo dan Citra Yolanda Sheyfanda Putri
 - Asal sekolah/kelas: SMAN 2 KOTA BLITAR
 
 - TAHAP 1: EKSPLORASI IDE DAN PERANCANGAN SOLUSI

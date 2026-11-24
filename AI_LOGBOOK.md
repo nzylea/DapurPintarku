@@ -12,14 +12,14 @@ Identitas Project
 - Tujuan: ide ide dari website ini dapat membantu menginspirasi masakan dari bahan makanan yang ada atau yang bersedia
 
 - PEMANFAATAN AI
--  saya menggunakan chatgpt digunakan untuk diskusi dan membantu mengembangkan ide yang bernama DapurPintarKu. jadi website ini dirancang sebagai saran untuk menginspirasi resep resep makanan yang dimiliki oleh pengguna. Ide dan Fitur dibahas yang meliputi 1. pencarian resep,daftar bahan,unggahan foto bahan,rekomendasi resep,menu mingguan dan daftar favorit.
+-  KAMI menggunakan chatgpt digunakan untuk diskusi dan membantu mengembangkan ide yang bernama DapurPintarKu. jadi website ini dirancang sebagai saran untuk menginspirasi resep resep makanan yang dimiliki oleh pengguna. Ide dan Fitur dibahas yang meliputi 1. pencarian resep,daftar bahan,unggahan foto bahan,rekomendasi resep,menu mingguan dan daftar favorit.
 - MIDIFIKASI
  saya memilih ide DapurPintarKu karna ini berkaitan dengan kebutuhan sehari- hari, dan membuat resep yang simple dan mudah di buat jadi tidak mencakup semua bahan tapi bahan yang tersedia lalu di beberapa bahan- bahan yang simple agar lebih mudah di buat makanan nya.
 - TAHAP 2: PENYUSUN KERANGAKA KODE 
 - tujuan: menggunakan struktur dasar website html,css,dan JavaScript
 - Pemanfaatan AI: html: sebagai struktur halaman, seperti navbar,pencarian resep,menu mingguan,favorit dan footer.css: unutk mengatur warna,tataletak,tombol,jarak,serta tampilan responsif.
 - MODIFIKASI
-- saya menempatkan file projec pada respitori yang baru dengan nama DapurPintarKu github dengan susunan folder 'publik' yang berisi 'index.html','style.css','script.js'. saya juga memeriksa ulang file nya satu persatu dan menghubungkan pemanggilan css serta javascript agar sesuai dengan foldernya
+- KAMI menempatkan file projec pada respitori yang baru dengan nama DapurPintarKu github dengan susunan folder 'publik' yang berisi 'index.html','style.css','script.js'. kami juga memeriksa ulang file nya satu persatu dan menghubungkan pemanggilan css serta javascript agar sesuai dengan foldernya
 - TAHAP 3: PEMECAHAN MASALAH DAN PENANGANAN GALAT
 - Tujuan: memeriksa kembali kesalahn serta memperbaiki website melalui github pages
 -pemanfaatan ai: ChatGPT digunakan untuk membantu menganalisis masalah saat website belum tampil sesuai harapan. Bantuan yang digunakan antara lain memeriksa pemanggilan file CSS dan JavaScript, memahami struktur file pada GitHub, serta menjelaskan langkah publikasi melalui GitHub Pages.
